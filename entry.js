@@ -25,7 +25,7 @@ console.log(data);
 $.ajax({
   type: 'POST',
   url: url,
-  data: data,
+  data: JSON.stringify(data),
   contentType : "application/json; charset=utf-8",
   dataType: "json",
 }).done(function( result ) {

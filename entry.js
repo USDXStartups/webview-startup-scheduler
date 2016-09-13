@@ -3,7 +3,7 @@ $ = require("jquery");
 
 // console.log(require("./content.js"));
 
-var url = "https://startupcalendarhelper.azurewebsites.net/api/RequestTopicExpert?code=6yy62ob12opbsym3ombgkeudrq0dcws1fk04&Test=true"
+var url = "https://startupcalendarhelper.azurewebsites.net/api/RequestTopicExpert?code=6yy62ob12opbsym3ombgkeudrq0dcws1fk04"
 
 var data = {
     "Topic": "Azure Functions",
@@ -11,7 +11,8 @@ var data = {
     "ReqestorLastName": "Jones",
     "ReqestorEmailAddress": "mschray@yahoo.com",
     "RequestedConversation": "How to migrate from Azure Functions to MVC and Web API site.",
-    "RequestedDayHalf": "Afternoon"
+    "RequestedDayHalf": "Afternoon",
+    "IsTest": "true"
 }
 
 // var request = new XMLHttpRequest();

@@ -24,6 +24,7 @@ console.log(data);
 
 $.ajax({
   type: 'POST',
+  crossDomain: true,
   url: url,
   data: data,
   contentType : "application/json; charset=utf-8"

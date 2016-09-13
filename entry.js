@@ -11,8 +11,7 @@ var data = {
     "ReqestorLastName": "Jones",
     "ReqestorEmailAddress": "mschray@yahoo.com",
     "RequestedConversation": "How to migrate from Azure Functions to MVC and Web API site.",
-    "RequestedDayHalf": "Afternoon",
-    "IsTest": "true"
+    "RequestedDayHalf": "Afternoon"
 }
 
 // var request = new XMLHttpRequest();
@@ -26,7 +25,7 @@ $.ajax({
   type: 'POST',
   url: url,
   data: data,
-  contentType : "text/plain"
+  contentType : "application/json; charset=utf-8"
 }).done(function( result ) {
     console.log('allo', result);
   });

@@ -26,7 +26,8 @@ $.ajax({
   type: 'POST',
   url: url,
   data: data,
-  contentType : "application/json; charset=utf-8"
+  contentType : "application/json; charset=utf-8",
+  dataType: "json",
 }).done(function( result ) {
     console.log('allo', result);
   });

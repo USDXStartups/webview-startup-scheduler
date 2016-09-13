@@ -70,10 +70,9 @@
 
 	$.ajax({
 	  type: 'POST',
-	  crossDomain: true,
 	  url: url,
 	  data: data,
-	  contentType : "application/json; charset=utf-8"
+	  contentType : "text/plain"
 	}).done(function( result ) {
 	    console.log('allo', result);
 	  });

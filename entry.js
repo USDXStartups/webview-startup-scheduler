@@ -1,6 +1,8 @@
 $ = require("jquery");
 
-$(".submit").click( () => {
+$(".submit").click( (e) => {
+    e.preventDefault();
+
     var url = "https://startupcalendarhelper.azurewebsites.net/api/RequestTopicExpert?code=6yy62ob12opbsym3ombgkeudrq0dcws1fk04"
 
     var data = {

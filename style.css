@@ -14,12 +14,17 @@ form {
 .loader {
     font-family: 'Bungee', cursive;
     text-align: center;
-    margin: 0 auto;
+    margin: 20px 0 auto;
     width: 200px;
     display: none
 }
 
 .complete {
     text-align: center;
-    display: none
+    display: none;
+    margin-top: 20px
+}
+
+textarea {
+    margin-bottom: 20px
 }

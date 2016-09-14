@@ -14,7 +14,7 @@ form {
 .loader {
     font-family: 'Bungee', cursive;
     text-align: center;
-    margin: 20px 0 auto;
+    margin: 20px auto;
     width: 200px;
     display: none
 }
@@ -27,4 +27,8 @@ form {
 
 textarea {
     margin-bottom: 20px
+}
+
+.submit {
+    margin-top: 20px
 }

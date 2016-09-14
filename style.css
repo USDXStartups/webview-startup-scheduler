@@ -1,3 +1,25 @@
-body {
-    background-color: green
-    }
+h1, h2, h3, h4 {
+    font-family: 'Bungee', cursive;
+}
+
+.footer {
+    margin-top: 40px;
+    border-top: 1px solid silver
+}
+
+form {
+    margin-top: 20px;
+}
+
+.loader {
+    font-family: 'Bungee', cursive;
+    text-align: center;
+    margin: 0 auto;
+    width: 200px;
+    display: none
+}
+
+.complete {
+    text-align: center;
+    display: none
+}

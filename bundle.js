@@ -61,7 +61,9 @@
 	        "IsTest": "true"
 	    }
 
-	    $(".loader").css({"display": "block"})
+	    $("form").css({"display": "none"})
+	    $(".loader").css({"display": "block"});
+
 
 	    console.log(data);
 

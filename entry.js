@@ -3,7 +3,7 @@ $ = require("jquery");
 $(".submit").click( (e) => {
     e.preventDefault();
 
-    var url = "https://startupcalendarhelper.azurewebsites.net/api/RequestTopicExpert?code=6yy62ob12opbsym3ombgkeudrq0dcws1fk04"
+    var url = "https://calendarhelper.azurewebsites.net/api/RequestTopicExpert?code=LnHOtIYH0p1WuH6LTmMtuDrhQ/dIV3p47pUp7IxMhT0ex/l2XT888Q=="
 
     var data = {
         "Topic": $("#topic").val(),
